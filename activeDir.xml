@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>Properties for Active Directoy and Phone Service.
+			 Rockleigh service AVAYA#SWLINK1#CSTA#NJAESSRV01 
+	  		 Rockleigh server 10.16.199.221
+	</comment>
+
+	<entry key="ATTRIBUTE_FOR_USER">sAMAccountName</entry>
+	<entry key="_domain">spectraeastnj.com</entry>
+	<entry key="host">njfs2</entry>
+	<entry key="dn">DC=spectraeastnj,DC=com</entry>
+
+	<entry key="ATTRIBUTE_FOR_USER_WEST">sAMAccountName</entry>
+	<entry key="_domain_west">SPECTRA.COM</entry>
+	<entry key="host_west">addc3</entry>
+	<entry key="dn_west">DC=spectra,DC=com</entry>
+	
+	<entry key="INITIAL_CONTEXT_FACTORY">com.sun.jndi.ldap.LdapCtxFactory</entry>
+	<entry key="PROVIDER_URL_WEST">ldap://addc3.spectra.com:389</entry>
+	<entry key="PROVIDER_URL">ldap://njfs2.spectraeastnj.com:389</entry>
+	<entry key="SECURITY_AUTHENTICATION">simple</entry>
+	<entry key="SECURITY_PRINCIPAL_WEST">ssoldaptest@SPECTRA.COM</entry>
+	<entry key="SECURITY_PRINCIPAL">ssoldaptest@spectraeastnj.com</entry>
+	<entry key="SECURITY_CREDENTIALS">Spectra1234</entry>
+	<entry key="SECURITY_CREDENTIALS_WEST">Likely!2</entry>
+	<entry key="login">OAISYSTSAPI</entry>
+	<entry key="password">Avaya1234567!</entry>
+	<entry key="service">AVAYA#MILSWLINK#CSTA#CAAESSVR01</entry>
+	<entry key="server">10.13.18.20</entry>
+
+
+</properties>
